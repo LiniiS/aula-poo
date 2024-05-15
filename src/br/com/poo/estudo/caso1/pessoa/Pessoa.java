@@ -21,6 +21,8 @@ public class Pessoa {
     private String endereco;
     private String telefone;
 
+    public Pessoa(){};
+
     //DECLARAÇÃO DE MÉTODO CONSTRUTOR
     public Pessoa(String nome, String sobrenome, String email, String endereco, String telefone) {
         this.nome = nome;
@@ -29,6 +31,15 @@ public class Pessoa {
         this.endereco = endereco;
         this.telefone = telefone;
     }
+
+    private int soma(){
+        int a = 0, b = 3;
+        return a + b;
+    }
+    private double soma(double a, double b){
+        return a + b;
+    }
+
 
     //DECLARAÇÃO DE MÉTODOS AUXILIARES
     public String getNome() {

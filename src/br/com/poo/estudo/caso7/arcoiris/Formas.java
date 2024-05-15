@@ -2,6 +2,7 @@ package br.com.poo.estudo.caso7.arcoiris;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Objects;
 
 public class Formas extends JPanel {
     private int choice; // escolha do usuário de qual forma desenhar
@@ -10,7 +11,8 @@ public class Formas extends JPanel {
     public Formas(int userChoice) {
         choice = userChoice;
     }
-
+    private Object objj;
+    private Objects objs;
     // desenha uma cascata de formas que iniciam do canto superior esquerdo
     public void paintComponent(Graphics g) {
         super.paintComponent(g);

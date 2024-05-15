@@ -70,6 +70,16 @@ public class PessoaTeste {
         Pessoa.exportarContatos(listaContatos, "ListaDeContatosDoOsvaldo");
 
 
+        Crianca crianca = new Crianca(  "Osvaldo",
+                                        "Peixoto",
+                                        "osvaldo@email.com",
+                                        "Avenida Brasil",
+                                        "(66) 2916-7253",
+                                        "Osvaldinho");
+
+        System.out.println("Nome de criança: "+ crianca.getNome());
+
+        Pessoa osvaldinho = crianca;
 
     }
 }
